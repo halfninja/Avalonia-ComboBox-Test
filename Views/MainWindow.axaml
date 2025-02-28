@@ -27,6 +27,8 @@
         </ComboBox>
         
         <TextBox Text="{Binding Items[0].Title}" />
+        
+        <Button Command="{Binding AddItemCommand}">Add item</Button>
     </StackPanel>
 
 </Window>
